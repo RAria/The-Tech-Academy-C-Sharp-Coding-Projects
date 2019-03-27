@@ -1,0 +1,6 @@
+C:\Users\Student\Desktop\C Sharp Coding Projects\The-Tech-Academy-C-Sharp-Coding-Projects\WelcomeScreen\bin\Debug\WelcomeScreen.exe.config
+C:\Users\Student\Desktop\C Sharp Coding Projects\The-Tech-Academy-C-Sharp-Coding-Projects\WelcomeScreen\bin\Debug\WelcomeScreen.exe
+C:\Users\Student\Desktop\C Sharp Coding Projects\The-Tech-Academy-C-Sharp-Coding-Projects\WelcomeScreen\bin\Debug\WelcomeScreen.pdb
+C:\Users\Student\Desktop\C Sharp Coding Projects\The-Tech-Academy-C-Sharp-Coding-Projects\WelcomeScreen\obj\Debug\WelcomeScreen.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\C Sharp Coding Projects\The-Tech-Academy-C-Sharp-Coding-Projects\WelcomeScreen\obj\Debug\WelcomeScreen.exe
+C:\Users\Student\Desktop\C Sharp Coding Projects\The-Tech-Academy-C-Sharp-Coding-Projects\WelcomeScreen\obj\Debug\WelcomeScreen.pdb
