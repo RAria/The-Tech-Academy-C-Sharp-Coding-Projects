@@ -1,0 +1,7 @@
+C:\Users\Student\Desktop\C Sharp Coding Projects\The-Tech-Academy-C-Sharp-Coding-Projects\DailyReportDrill\bin\Debug\DailyReportDrill.exe.config
+C:\Users\Student\Desktop\C Sharp Coding Projects\The-Tech-Academy-C-Sharp-Coding-Projects\DailyReportDrill\bin\Debug\DailyReportDrill.exe
+C:\Users\Student\Desktop\C Sharp Coding Projects\The-Tech-Academy-C-Sharp-Coding-Projects\DailyReportDrill\bin\Debug\DailyReportDrill.pdb
+C:\Users\Student\Desktop\C Sharp Coding Projects\The-Tech-Academy-C-Sharp-Coding-Projects\DailyReportDrill\obj\Debug\DailyReportDrill.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\C Sharp Coding Projects\The-Tech-Academy-C-Sharp-Coding-Projects\DailyReportDrill\obj\Debug\DailyReportDrill.exe
+C:\Users\Student\Desktop\C Sharp Coding Projects\The-Tech-Academy-C-Sharp-Coding-Projects\DailyReportDrill\obj\Debug\DailyReportDrill.pdb
+C:\Users\Student\Desktop\C Sharp Coding Projects\The-Tech-Academy-C-Sharp-Coding-Projects\DailyReportDrill\obj\Debug\DailyReportDrill.csprojAssemblyReference.cache
