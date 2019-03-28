@@ -18,7 +18,7 @@ namespace MathAndComparisonOperatorsExcercise
             int hourlyRate = Convert.ToInt32(hourlyRateString);
             Console.WriteLine("Hours Worked per week?");
             string weekHoursString = Console.ReadLine();
-            int weekHours = Convert.ToInt32(weekHoursString);
+            int weekHours = int.Parse(weekHoursString);
             int annualSalary1 = weekHours * 52 * hourlyRate;
 
             Console.WriteLine("Person 2");
