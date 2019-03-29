@@ -13,10 +13,9 @@ namespace SwitchStatement
 
             Console.WriteLine("Guess a number?");
             int number = Convert.ToInt32(Console.ReadLine());
-            bool isGuessed =number == 55;
+            bool isGuessed = number == 55;
 
-
-            do
+            while (!isGuessed)
             {
                 switch (number)
                 {
@@ -45,7 +44,6 @@ namespace SwitchStatement
                 }
 
             }
-            while (!isGuessed);
             Console.Read();
         }
     }
