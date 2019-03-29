@@ -11,50 +11,33 @@ namespace SwitchStatement
         static void Main(string[] args)
         {
 
-            //Console.WriteLine("Guess a number?");
-            //int number = Convert.ToInt32(Console.ReadLine());
-            //bool isGuessed =number == 55;
+           Console.WriteLine("If you divide 100 by 2 and add 5 and multiply by 4 and substract 6 and divide the final number to 2 what is the result? ");
+            int result = int.Parse(Console.ReadLine());
+           bool resultBolean = result == 107;
+
+            do
+            {
+                switch (result)
+                {
+                    case 107:
+                        Console.WriteLine("You got it!");
+                        resultBolean = true;
+                        break;
 
 
-            //do
-            //{
-            //    switch (number)
-            //    {
-            //        case 62:
-            //            Console.WriteLine("You guessed 62. Try again.");
-            //            Console.WriteLine("Guess a number?");
-            //            number = Convert.ToInt32(Console.ReadLine());
-            //            break;
+                    default:
+                        Console.WriteLine("Not quite right!");
+                        Console.WriteLine("Lets try it again");
+                        result = int.Parse(Console.ReadLine());
+                        break;
 
-            //        case 25:
-            //            Console.WriteLine("You guessed 25. Try again");
-            //            Console.WriteLine("Guess a number?");
-            //            number = Convert.ToInt32(Console.ReadLine());
-            //            break;
+                }
 
-            //        case 55:
-            //            Console.WriteLine("You guessed 55. That is correct!");
-            //            isGuessed = true;
-            //            break;
-
-            //        default:
-            //            Console.WriteLine("You are wrong.");
-            //            Console.WriteLine("Guess a number?");
-            //            number = Convert.ToInt32(Console.ReadLine());
-            //            break;
-            //    }
-
-            //}
-            //while (!isGuessed);
-
-            string name = "Abdul";
-
-            StringBuilder sb = new StringBuilder();
-
-            sb.Append("My name is Abdul");
-        
-            Console.WriteLine(sb);
+            }
+            while (!resultBolean);
             Console.Read();
+
+
         }
     }
 }

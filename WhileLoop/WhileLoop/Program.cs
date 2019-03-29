@@ -11,40 +11,29 @@ namespace SwitchStatement
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Guess a number?");
-            int number = Convert.ToInt32(Console.ReadLine());
-            bool isGuessed = number == 55;
-
-            while (!isGuessed)
+            Console.WriteLine("Cany you guess my Name?");
+            Console.WriteLine("Here is a hint A***l, all you got to do is fill the blanks...remember my name spelling is case sensitive");
+            string myName = Console.ReadLine();
+            bool correct = myName == "Abdul"; 
+            while (correct!=true)
+               
             {
-                switch (number)
+                if (myName == "Abdul")
                 {
-                    case 62:
-                        Console.WriteLine("You guessed 62. Try again.");
-                        Console.WriteLine("Guess a number?");
-                        number = Convert.ToInt32(Console.ReadLine());
-                        break;
+                    Console.WriteLine("That is right, My first name is " + myName);
+                    correct = true;
 
-                    case 25:
-                        Console.WriteLine("You guessed 25. Try again");
-                        Console.WriteLine("Guess a number?");
-                        number = Convert.ToInt32(Console.ReadLine());
-                        break;
-
-                    case 55:
-                        Console.WriteLine("You guessed 55. That is correct!");
-                        isGuessed = true;
-                        break;
-
-                    default:
-                        Console.WriteLine("You are wrong.");
-                        Console.WriteLine("Guess a number?");
-                        number = Convert.ToInt32(Console.ReadLine());
-                        break;
                 }
-
+                else
+                {
+                    Console.WriteLine("That is not correct!");
+                    Console.WriteLine("Lets start all over again, here is the hint again A***l");
+                    myName = Console.ReadLine();
+                }
+                Console.Read();
             }
-            Console.Read();
         }
+            
+        
     }
 }
