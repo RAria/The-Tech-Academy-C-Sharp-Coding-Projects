@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ClassMethod_Excercise117
 {
     public class Methods
-    {//void method that takes and outputs an integer.
+    {//void methods that take and output decimal value. Method is overloaded.
         public static void voidMethod(decimal var1, out decimal output)
         {
             output = var1/2;
