@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace InheritanceExc
 {
     public class Person
-    {
+    {//Create a class with two properties and a method which concatenate two strings.
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
