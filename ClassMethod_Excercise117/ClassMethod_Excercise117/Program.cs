@@ -28,5 +28,10 @@ namespace ClassMethod_Excercise117
             Console.ReadLine();
             
         }
+        //Static class.
+        public static void staticClass()
+        {
+
+        }
     }
 }
