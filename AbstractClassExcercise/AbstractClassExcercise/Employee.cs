@@ -16,7 +16,7 @@ namespace AbstractClassExcercise
 
         }
         
-        
+        //Quit method implemented from IQuittable interface which is inheritted by this class.
         public void Quit()
         {
             Console.WriteLine("I quit!");
