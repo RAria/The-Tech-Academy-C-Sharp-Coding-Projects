@@ -11,11 +11,15 @@ namespace AbstractClassExcercise
         static void Main(string[] args)
         {
             //instantiate Employee object.
-            Employee Name = new Employee() {firstName = "Sample", lastName = "Student" };
+           // Employee Name = new Employee() {firstName = "Sample", lastName = "Student" };
   
             //call the method on instantiated object.
-            Name.SayName(Name.firstName, Name.lastName);
-            Console.ReadLine();
+           // Name.SayName(Name.firstName, Name.lastName);
+//            Console.ReadLine();
+
+            Employee quit = new Employee();
+            quit.Quit();
+            Console.Read();
         }
     }
 }
