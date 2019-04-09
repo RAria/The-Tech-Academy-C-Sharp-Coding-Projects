@@ -19,9 +19,17 @@ namespace AbstractClassExcercise
 
             //Create an object of type interface. Since interface cannot be instantiated directly but using polymorphism -
             //we can create an object of the inheriting class which will have access to the properties of the interface.
-            Employee quit = new Employee();
-            quit.Quit();
-            Console.Read();
-        }
+            //Employee quit = new Employee();
+            //quit.Quit();
+            //Console.Read();
+
+            
+            Employee employee1 = new Employee() { firstName = "Bob", lastName = "Hunter", Id = 007 };
+            Employee employee2 = new Employee() { firstName = "Bob", lastName = "Hunter", Id = 007 };
+
+           //prints the bool value true or fase.
+            Console.WriteLine(employee1==employee2);
+            Console.ReadLine();
+    }
     }
 }
