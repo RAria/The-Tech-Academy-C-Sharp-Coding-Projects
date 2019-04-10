@@ -53,6 +53,10 @@ namespace Excercise_140
             {
                 Console.WriteLine("\nEmployee Info (newList): {0}, {1}, {2}", search.firstName, search.lastName, search.Id);
             }
+
+            //creates new list of EmployeeInfo type, goes through employees list, find and add to new list any value where Id is greater than 5.
+            List<EmployeeInfo> greaterThan5 = employees.Where(x => x.Id > 5).ToList();
+            Console.WriteLine("\n\t"+greaterThan5.Count);
             Console.Read();
         }
 
