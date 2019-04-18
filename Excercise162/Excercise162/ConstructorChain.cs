@@ -8,6 +8,8 @@ namespace Excercise162
 {
     public class ConstructorChain
     {
+        //chaining two constructors. The base constructor has two paremerters and the second constructor which is chained to the base constructor has only one parameter.
+        //An instance of the class can be created by passing two or only one parameter.
         public ConstructorChain(string name) : this(name, 0)
         {
 

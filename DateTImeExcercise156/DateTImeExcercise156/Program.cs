@@ -15,7 +15,7 @@ namespace DateTImeExcercise156
             Console.WriteLine("\nPlease enter a number to set the time");
             double hour = Convert.ToDouble(Console.ReadLine());
             //set the hour of the current time to the input entered by the user.
-            string dateTime = System.DateTime.Now.AddHours(hour).ToString("hh:mm:ss");
+            string dateTime = DateTime.Now.AddHours(hour).ToString("hh:mm:ss");
 
             
             Console.WriteLine(dateTime);
