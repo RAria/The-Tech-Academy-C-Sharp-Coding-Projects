@@ -11,7 +11,7 @@ namespace StringComparison
         static void Main(string[] args)
         {
             Console.WriteLine("Enter a string to compare");
-            string input = Console.ReadLine().ToLower();
+            string input = Console.ReadLine();
             Console.WriteLine(comparison(input));
            // bool result = comparison(input);
             //Console.WriteLine(result);
@@ -25,7 +25,11 @@ namespace StringComparison
 
         public static bool comparison(string input)
         {
-            return int Os = input.Where(x => x == 'o').Count() == int Xs = input.Where(x => x == 'x').Count() ? true : false;
+
+
+            return input.ToLower().Where(x => x == 'o').Count() == input.Where(x => x == 'x').Count() ? true : false;
+
+            
             //int Os = input.Where(x => x == 'o').Count();
             //int Xs = input.Where(x => x == 'x').Count();
             //return (Os==Xs);
